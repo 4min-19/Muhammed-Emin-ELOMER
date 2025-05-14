@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(arka\ pilan.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+header {
+    background-color: rgba(58, 119, 58, 0.432);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.logo #logo {
+    box-shadow: none;
+    color: #ff7e5f;
+    width: 90px;
+    height: auto;
+    padding-left: 32px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    padding: 16px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+li a {
+    font-size: 24px;
+    list-style: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+    background-color: rgba(58, 119, 58, 0.432);
+    border-radius: 5px;
+}
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 16px;
+
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#image img {
+    height: 340px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+footer {
+    background-color: rgba(58, 119, 58, 0.432);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    padding: 10px 0;
+}
+footer p {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer ul {
+    height: auto;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.home .contact-container #email {
+    margin-bottom: 18px;
+}
+.home .contact-container #password {
+    margin-bottom: 30px;
+}
+.video {
+    text-align: left;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    text-indent: -160px;
+}
+.home .image img {
+    background-attachment: fixed;
+}
+.image a #Image4 {
+    width: 168px;
+    height: 320px;
+}
+
+.image img{
+    width: 50px;
+    height: 100px;
+}
+
+#foto {
+    width: 150px;
+    height: 250px;
+}
+
+.video .audio audio {
+    padding-top: 120px;
+}
+.video .audio audio {
+}

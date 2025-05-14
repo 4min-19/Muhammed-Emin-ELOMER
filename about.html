@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/sablon-sec.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+<!-- InstanceBeginEditable name="doctitle" -->
+    <title>Ana Sayfa</title>
+	<script>
+        // Küçük resme tıklanınca büyük resmi değiştiren fonksiyon
+        function resimDegistir(yeniSrc) {
+            document.getElementById('foto').src = yeniSrc;
+        }
+    </script>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo" id="logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkında</a></li>
+                <li><a href="projects.html">Projeler</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- InstanceBeginEditable name="EditRegion3" -->
+    <section class="home">
+        <main>
+            <h1>Hakkında</h1>
+            <h1>Hoş Geldiniz!</h1>
+            <p>Ben Muhammed Emin ELOMER, bir yazılım geliştiricisiyim.</p>
+            <p>Bu web sitesi benim projelerimi ve hakkımda daha fazla bilgi edinmenizi sağlamak için tasarlandı.</p>
+            <p>İlgilendiğiniz konular hakkında daha fazla bilgi almak için lütfen menüden seçim yapın.</p>
+        </main>
+
+        <div class="image-container">
+            <!-- BÜYÜK GÖRSEL -->
+            <img src="2.foto.jpg" alt="" id="foto" width="400" height="300">
+            
+            <!-- KÜÇÜK GÖRSELLER -->
+            <div class="image">
+                <img src="3.foto.jpg" alt="" width="100" height="75" onclick="resimDegistir('3.foto.jpg')">
+                <img src="2.foto.jpg" alt="" width="100" height="75" onclick="resimDegistir('2.foto.jpg')">
+                <img src="1.foto.jpg" alt="" width="100" height="75" onclick="resimDegistir('1.foto.jpg')">
+            </div>
+        </div>
+    </section>
+    <!-- InstanceEndEditable -->
+    <footer>
+        <ul>
+            <li>
+                <a href="index.html">Ana Sayfa</a>
+            </li>
+            <li>
+                <a href="contact.html">İletişim</a>
+            </li>
+            <li>
+                <a href="about.html">Hakkında</a>
+            </li>
+            <li>
+                <a href="projects.html">Projeler</a>
+            </li>
+      </ul>
+</footer>
+</body>
+<!-- InstanceEnd --></html>
